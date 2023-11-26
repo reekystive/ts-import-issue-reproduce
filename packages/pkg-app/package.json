@@ -1,0 +1,14 @@
+{
+  "name": "@mono/pkg-app",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm src/index.ts"
+  },
+  "dependencies": {
+    "@mono/pkg-shared": "workspace:*"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "~5.3.0"
+  }
+}
